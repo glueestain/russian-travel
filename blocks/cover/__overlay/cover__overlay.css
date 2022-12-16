@@ -1,0 +1,23 @@
+.cover__overlay {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
+}
