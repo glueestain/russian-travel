@@ -23,3 +23,10 @@
         padding-left: 16px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .place__paragraph {
+        max-width: calc(100% - 2*16px);
+        line-height: 164%;
+    }
+}
