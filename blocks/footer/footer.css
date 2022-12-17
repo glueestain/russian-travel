@@ -21,5 +21,6 @@
         display: block;
         max-width: 320px;
         padding: 0 0 24px 16px;
+        margin: 0;
     }
 }
