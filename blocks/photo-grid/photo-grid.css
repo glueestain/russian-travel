@@ -1,6 +1,6 @@
 .photo-grid {
     margin: 0 auto;
-    padding: 92px 48px;
+    padding: 92px 48px 80px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px 16px;
@@ -12,7 +12,7 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 14px 14px;
         max-width: 928px;
-        padding-bottom: 96px;
+        padding-bottom: 79px;
     }
 }
 
@@ -20,7 +20,7 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         max-width: 720px;
-        padding: 92px 24px;
+        padding: 92px 24px 77px;
         gap: 14px 14px;
     }
 }
@@ -33,6 +33,6 @@
         gap: 12px;
         max-width: 320px;
         min-width: 288px;
-        padding: 64px 16px;
+        padding: 64px 16px 47px;
     }
 }
