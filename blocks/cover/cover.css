@@ -26,30 +26,17 @@
     opacity: 0.8;
 }
 
-
-
 @media screen and (max-width: 1024px) {
     .cover {
+        margin: 88px auto;
         max-width: 1024px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .cover {
-        margin: 88px auto;
-    }
-}
-
-
 @media screen and (max-width: 685px) {
     .cover {
-        margin: 81px auto 64px;
+        margin: 66px auto 64px;
         max-width: 320px;
     }
 }
 
-@media screen and (max-width: 685px) {
-    .cover {
-        max-width: 320px;
-    }
-}
